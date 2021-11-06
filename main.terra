@@ -1,0 +1,124 @@
+// comment
+
+import tkinter as tk
+import math
+
+site = Assign(country='Ug', text='rogers')
+echo(site)
+
+// root = tk.Tk()
+// root.geometry('500x600')
+// root.config(Assign(bg='#16191b'))
+
+// lb = tk.Label(root, Assign(fg='white', text='calulator', bg='#16191b', height=5))
+// lb.pack()
+
+// input = tk.Text(root, Assign(font=Tuple('helvetica', 30, 'bold'), highlightbackground='black', padx=2, pady=2, bd=0, fg='white', bg='#16191b', height=2))
+// input.pack(Assign(ipady=2))
+
+// output = tk.Text(root, Assign(font=Tuple('helvetica', 20, 'bold'), highlightbackground='black', padx=2, pady=2, bd=0, fg='white', bg='#16191b', height=1.7))
+// output.pack(Assign(ipady=2))
+
+// Func gets(){
+// 	question = input.get(1.0, tk.END).strip('\n')
+// 	output.delete(1.0, tk.END)
+// 	output.insert(1.0, eval(?'{question}'))
+// }
+
+// sum = tk.Button(root, Assign(text='answer', font=Tuple('monospace', 16), command=lambda:gets()))
+// sum.pack()
+
+// root.wait_visibility(root)
+// root.wm_attributes('-alpha', 0.95)
+// root.mainloop()
+
+
+
+// import os
+
+// // datatypes
+// numbers = 17
+// flt = 12.5
+
+// info = 'in array'
+// arrays = Array[1, 2, info, 4]
+// sets = Set(1,2,3,4,5)
+
+// dt = {'Country': 'Uganda','City': 'Kampala','location': Array[1,3,4,5]}
+
+// echo(dt)
+
+// Object Db{
+// 	Func public(db_name){
+// 		self.dbname = db_name 
+// 		self.db = Array[]
+// 	}
+
+// 	Func insert(data_, callback=null){
+// 		self.db.append(data_)
+
+// 		if(callback == null){
+// 			continue
+// 		} else{
+// 			callback()
+// 		}
+// 		end
+// 	}
+
+// 	Func fetch(){
+// 		return self.db
+// 	}
+// }
+
+
+
+// Func delete(path_){
+// 	if(os.path.exists(path_)){
+// 		if(os.path.isfile(path_)){
+// 			echo(path_)
+// 			os.remove(path_)
+// 		}
+// 		else if(os.path.isdir(path_)){
+// 			dir = os.listdir(path_)
+// 			echo(dir)
+
+// 			for(i in dir){
+// 				delete(os.path.join(path_, i))
+// 			}
+// 		}
+// 		end
+// 	}
+// 	end
+// }
+
+// delete('toss')
+
+// input = enter('>> ')
+
+// if(input == 'hello world' | input != 'hello earth'){
+// 	echo('cool it is right.')
+// } else if(12 == 12){
+// 	echo('we')
+// 	continue
+// }
+// else{
+// 	echo("didn't expect this one")
+// }
+// end
+
+
+// struct Person{
+// 	name -> 'unknown',
+// 	age
+// }
+
+// array = Array[struct Person('snail', 3)]
+// echo(array[0].name)
+
+
+// Func exe(){
+// 	echo('hello world')
+// 	return 1 + 2
+// }
+
+// echo(exe())
